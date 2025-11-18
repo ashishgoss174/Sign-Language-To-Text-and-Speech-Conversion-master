@@ -42,7 +42,7 @@ It uses electromechanical devices to provide exact hand configuration, and posit
 In vision-based methods, the computer webcam is the input device for observing the information of hands and/or fingers. The Vision Based methods require only a camera, thus realizing a natural interaction between humans and computers without the use of any extra devices, thereby reducing costs.  The main challenge of vision-based hand detection ranges from coping with the large variability of the human hand’s appearance due to a huge number of hand movements, to different skin-color possibilities as well as to the variations in viewpoints, scales, and speed of the camera capturing the scene. 
 
  
-![Screenshot (224)](https://user-images.githubusercontent.com/99630855/201489523-0804652e-1a38-4242-ad69-8bfafb25f55a.png)
+
 
  
 
@@ -80,10 +80,6 @@ Now we get this landmark points and draw it in plain white background using open
 -By doing this we tackle the situation of background and lightning conditions because the mediapipe labrary will give us landmark points in any background and mostly in any lightning conditions. 
 
 
-![2022-10-31](https://user-images.githubusercontent.com/99630855/201489669-1b262755-23f8-4e02-91ba-393aa6482620.png)
-![2022-10-31 (1)](https://user-images.githubusercontent.com/99630855/201489673-08a8dad8-30a4-426a-8f62-02190416191d.png)
-
- ![hhee2022-10-31 (2)](https://user-images.githubusercontent.com/99630855/201496302-f67b360a-1ef5-4486-8ff7-cc56cee30b97.png)
 
 
 -we have collected 180 skeleton images of Alphabets from A to Z 
@@ -113,7 +109,7 @@ The layer consists of learnable filters of window size. During every iteration I
 As I continue this process well create a 2-Dimensional activation matrix that gives the response of that matrix at every spatial position. 
 
 That is, the network will learn filters that activate when they see some type of visual feature such as an edge of some orientation or a blotch of some colour. 
-![cnn](https://user-images.githubusercontent.com/99630855/201490154-1416d8ad-c7df-42a2-a296-5d56bad1d5c5.png)
+
 
 **Pooling Layer:**
 
@@ -133,7 +129,7 @@ In average pooling we take average of all Values in a window.
 
 pooling 
 
-![pooling](https://user-images.githubusercontent.com/99630855/201490158-22a8a043-c2fe-4082-8fb5-a6c173061b58.jpg)
+
 
 **Fully Connected Layer:**
 
@@ -141,7 +137,7 @@ In convolution layer neurons are connected only to a local region, while in a fu
 
 Fully Connected Layer 
 
-![fullyConnectedLayer](https://user-images.githubusercontent.com/99630855/201490169-00b17306-e355-4d2e-88e5-3fbd4c7b3f17.png)
+
  
 
 The preprocessed 180 images/alphabet will feed the keras CNN model.  
